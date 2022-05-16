@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 20;
+    box-sizing: border-box;
+}
 body{
     font-family: "Open Sans", "sans-serif";
     font-size:16px;
@@ -5,9 +10,28 @@ body{
     background-color: #ffff;
 }
 
+nav{
+    background-color: #938DF8;
+    display: flex;
+    justify-content: flex-end;
+    font-size:18px;
+    font-weight:700;
+    line-height:25px;
+}
+
+.lista-menu{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    width: 1000px;
+
+    
+}
+
 li{
     list-style: none;
 }
+
 .title{
     color:#938DF8;
     font-weight: 700;
@@ -22,22 +46,48 @@ li{
     line-height:51px;
 }
 
+body li{
+    list-style: none;
+}
+
+
+nav a{
+    color:#ffff;
+    text-decoration: none;
+
+}
+
+nav li{
+    list-style: none;
+}
+
+#Home{
+    background-color:#EDEAEA;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:580px;
+    padding: 50px;
+}
+
+#Home figure{
+    margin-bottom: 20px;
+}
+
 .intro{
     font-family: 'ABeeZee', sans-serif;
     color:black;
     font-weight: 400;
     font-size:16px;
     line-height:22.4px;
+    text-align: center;
+    text-align: justify;
+
+    max-width: 490px;
 }
 
-body li{
-    list-style: none;
-}
-nav{
-    font-size:18px;
-    font-weight:700;
-    line-height:25px;
-    background-color:#938DF8;
+#Portfolio{
+    background-color:#EDEAEA;
 }
 
 section h1 {
@@ -45,24 +95,46 @@ section h1 {
     font-size:24px;
     line-height:32.68px;
     color:#49BFB3;
+    margin-right: 50px;
 }
 
-
-nav a{
-    color:#ffff;
+.content{
+    display:flex;
+    max-width:800px;
+    margin:0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-align: justify;
 }
 
-nav li{
-    list-style: none;
-}
-#Home{
-    background-color:#EDEAEA;
-}
-
-#Portfolio{
-    background-color:#EDEAEA;
-}
-#Contato{
-    background-color:#938DF8;
+.description{
+    font-size: 16px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: 700;
 }
 
+.item{
+    margin-bottom: 30%;
+}
+
+#contato{
+    background-color: #938DF8;
+    height:198px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contato a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 700;
+    text-align: justify;
+}
