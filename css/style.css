@@ -12,7 +12,7 @@ body{
 
 nav{
     background-color: #938DF8;
-    display: flex;
+    display:flex;
     justify-content: flex-end;
     font-size:18px;
     font-weight:700;
@@ -20,15 +20,27 @@ nav{
 }
 
 .lista-menu{
-    display: flex;
+    display:flex;
     justify-content:space-between;
     padding: 20px;
-    width: 1000px;
-
-    
+    width: 434px;
 }
 
 li{
+    list-style: none;
+}
+
+
+body li{
+    list-style: none;
+}
+
+nav a{
+    color:#ffff;
+    text-decoration: none;
+}
+
+nav li{
     list-style: none;
 }
 
@@ -46,28 +58,13 @@ li{
     line-height:51px;
 }
 
-body li{
-    list-style: none;
-}
-
-
-nav a{
-    color:#ffff;
-    text-decoration: none;
-
-}
-
-nav li{
-    list-style: none;
-}
-
 #Home{
     background-color:#EDEAEA;
     display:flex;
     flex-direction:column;
     align-items:center;
-    height:580px;
-    padding: 50px;
+    height:500px;
+    padding: 30px;
 }
 
 #Home figure{
@@ -81,8 +78,6 @@ nav li{
     font-size:16px;
     line-height:22.4px;
     text-align: center;
-    text-align: justify;
-
     max-width: 490px;
 }
 
@@ -96,27 +91,43 @@ section h1 {
     line-height:32.68px;
     color:#49BFB3;
     margin-right: 50px;
+    margin-bottom: 34px;
+    text-align: justify;
+    text-align: center;
 }
 
 .content{
     display:flex;
     max-width:800px;
     margin:0 auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 34px;
+    padding-bottom: 34px;
     text-align: center;
     text-align: justify;
+    color: #000000;
+}
+
+.content p{
+    padding-top: 10px;
 }
 
 .description{
-    font-size: 16px;
-    line-height: 22px;
-    color: #828282;
-    font-weight: 700;
+    display:flex;
+    max-width:800px;
+    margin:0 auto;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    text-align: center;
+    text-align: justify;
+    color: #000000;
 }
 
 .item{
-    margin-bottom: 30%;
+    margin-bottom:3%;
+}
+
+.content{
+    margin-bottom:3%;
 }
 
 #contato{
@@ -126,7 +137,7 @@ section h1 {
     padding-top: 40px;
     padding-bottom: 40px;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: space-between;
 }
 
@@ -136,5 +147,14 @@ section h1 {
     font-size: 14px;
     line-height: 19px;
     font-weight: 700;
-    text-align: justify;
+    margin-left: 30px;
+    
+}
+
+.icon{
+    position:absolute;
+    height: 25px;
+    width: 25px;
+    margin-top: 0.25px;
+    margin-left: 0.25px;
 }
