@@ -1,0 +1,43 @@
+body {
+    background-color: #fae8e0;
+}
+
+
+
+.bg-color{
+    background-color: #b1d8b7;
+    color: #2f5233;
+    
+}
+
+#Home{
+    background-color: #b6e2d3;
+    color: #2f5233;
+}
+
+.bg-color a {
+    color: #ef7c8e;
+}
+
+.colortitle{
+    color: #ef7c8e
+}
+
+nav{
+    background-color:#b1d8b7;
+    border: 3px dashed #2f5233;
+    font-size: 12px;
+}
+
+nav a{
+   color: #ef7c8e;
+}
+.firstp{ font-size:20px;
+    color:#ef7c8e;
+    background-color:#2f5233;
+}
+li{
+    color:#f34336;
+    list-style: none;
+    text-decoration:line-through;
+}
