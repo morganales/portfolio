@@ -125,7 +125,7 @@ body{
     font-family: 'Shrikhand', cursive;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 5px;
     color: #e83e2d;
 }
@@ -149,7 +149,7 @@ body{
     left: 10%;
     right: 20%;
 
-    font-family: 'Open Sans';
+    font-family: 'Aleo', serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -207,7 +207,7 @@ body{
 
 .estudo{
     width: 500px;
-    margin-top: 3%;
+    margin-top: 8%;
     margin-left: 4%;
     position: relative;
     text-decoration: none;
@@ -328,14 +328,74 @@ body{
 
 #projetos{
     width: auto;
-    height: 800px;
+    height: 768px;
     padding-top: 50px;
+}
+
+.texto-pg1{
+    padding-top: 15%;
+}
+.pg1-portfolio{
+    width: auto;
+    height: 768px;
+    padding-top: 50px;
+    padding-left: 10%;
+
+    background-color: #eae5df;
+}
+.pg1-portfolio img{
+    width: 450px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 0%;
+    position:absolute;
+
+}
+
+.port-title{
+    text-align: left;
+    padding-left: 0%;
+
+    font-family: 'Shrikhand', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #e83e2d;
+}
+.port-subtitle{
+    text-align: left;
+    padding-left: 1%;
+    scroll-padding-top: 50%;
+    padding-bottom: 1%;
+
+    font-family: 'Shrikhand', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 5px;
+    color: #e83e2d;
+}
+
+.port-subtext{
+    width: 30%;
+    padding-top: 1%;
+    padding-left: 0%;
+    text-align:left;
+    top: 90px;
+    right: 20%;
+
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #e83e2d;
 }
 
 #projetos a{
     text-decoration: none;
 }
-
 
 #contato{
     width: auto;
