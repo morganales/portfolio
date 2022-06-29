@@ -17,7 +17,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aleo:wght@300&family=Courier+Prime&family=Open+Sans:wght@300&family=Shrikhand&display=swap" rel="stylesheet">    
 </head>
 
-<body>
+    <body>
 
 
 <!– // --------------- barra de navegação -------------------------------------------------–>
@@ -30,8 +30,17 @@
         <li><a href="#Sobre">sobre</a></li>
         <li><a href="#Formação">formação</a></li>
         <li><a href="#Habilidades">habilidades</a></li>
-        <li><a href="#projetos">projetos</a></li>
-        <li><a href="#contato">contato</a></li>
+        <li><a href="#projetos">projetos</a>
+        <ul>
+            <li><a href="#Bonadei">Bonadei</a></li>
+            <li><a href="#Goodtimes">Good Times</a></li>
+            <li><a href="#Parte2">Parte 2</a></li>
+            <li><a href="#Amora">Amora Filmes</a></li>
+            <li><a href="#La">La Tijereta</a></li>
+         </ul>
+            <li><a href="#footer">contato</a></li>
+        </li>
+
     </ul>
         <img src="images/icon.png">
 
@@ -41,7 +50,7 @@
 <!– // --------------- home -------------------------------------------------–>
 
 
-<main id="Home"> 
+    <main id="Home"> 
     
     <section class="pg-inicial">
             
@@ -55,7 +64,7 @@
 
     </section>
 
-</main>
+    </main>
 
 
 <!– // --------------- Sobre -------------------------------------------------–>
@@ -113,10 +122,20 @@
     </section>
 
 
-<!– // --------------- projetos/ portfolio -------------------------------------------------–>
+    <!– // ---------------Habilidades -------------------------------------------------–>
+    
+    <section id="Habilidades">
+        
+        <section id ="skills">
+        <img src="images/skills.png"/>
+        </section>
+
+    </section>
+      
+    <!– // --------------- projetos/ portfolio -------------------------------------------------–>
 
 
-<section id="projetos">
+    <section id="projetos">
 
     <section class="pg1-portfolio">
         <img src="images/capaportfolio.png"/>
@@ -132,11 +151,13 @@
                 <p>Um pouco do meu trabalho até aqui e meus primeiros passos como desenvolvedora.</p>
             </div>
         </div>
+    </section>
 
-    <section class="pg2-portfolio">
-        <img class= "image-texto-bonadei" src="images/janela2.png"/>
-        <div class="bonadei">
-            <h1 class="title-bonadei">PROFESSORA DE INGLÊS |<br> INSTITUTO EDUCACIONAL BONADEI</h1>
+    <section id="Bonadei">
+        <img class= "img-bonadei" src="images/img1bonadei.png"/>
+        <img class= "img-text-bonadei" src="images/janela2.png"/>
+        <div class="pg1-bonadei">
+            <h1 class="title-bonadei">PROFESSORA DE INGLÊS | INSTITUTO EDUCACIONAL BONADEI</h1>
             <p class="description-bonadei"">Responsável pela criação de aulas lúdicas com foco em conversação, visando ensinar a lógica e confiança na língua inglesa para crianças dos 7 aos 14 anos.</p>
             <h4 class="data-bonadei">
                 Abril/2022 – Presente  |  Guarulhos
@@ -145,11 +166,11 @@
         </div>
     </section>
 
-    <section class="pg3-portfolio">
-        <img class="img-texto-good" src="images/janela2.png"/>
-        <img class="img-good" src="images/janela2.png"/>
+    <section id="Goodtimes">
+        <img class="img-text-good" src="images/janela2.png"/>
+        <img class="img-good" src="images/imggood.png"/>
         <div class="good">
-            <h1 class="title-good">TRADUTORA AUTÔNOMA |<br> GOOD TIMES PRODUÇÕES</h1>
+            <h1 class="title-good">TRADUTORA AUTÔNOMA | GOOD TIMES PRODUÇÕES</h1>
             <p class="description-good"">Criação de legenda do português para o inglês, tradução e sincronização de diversas web séries para a produtora.</p>
             <h4 class="data-good">
                 Março/2021 – Fevereiro/2022  | São Paulo
@@ -158,10 +179,10 @@
         </div>
     </section>
 
-    <section class="pg5-portfolio">
-        <img class="img-texto-parte" src="images/janela2.png"/>
-        <img class="img-parte" src="images/janela2.png"/>
-        <div class="good">
+    <section id="Parte2">
+        <img class="img-text-parte" src="images/janela2.png"/>
+        <img class="img-parte" src="images/imgparte2.png"/>
+        <div class="parte">
             <h1 class="title-parte">TRADUTORA AUTÔNOMA |<br> Parte2 filmes</h1>
             <p class="description-parte"">Criação de legenda do português para o inglês, tradução e sincronização de web série em três partes para a produtora.</p>
             <h4 class="data-parte">
@@ -171,9 +192,9 @@
         </div>
     </section>
 
-    <section class="pg7-portfolio">
-        <img class="img-texto-amora" src="images/janela2.png"/>
-        <img class="img-amora" src="images/janela2.png"/>
+    <section id="Amora">
+        <img class="img-text-amora" src="images/janela2.png"/>
+        <img class="img-amora" src="images/imgamora.png"/>
         <div class="amora">
             <h1 class="title-amora">TRADUTORA AUTÔNOMA |<br> Amora filmes</h1>
             <p class="description-amora"">Revisão de legenda do português para o inglês, tradução e sincronização do documentário Todas as Meninas Reunidas, Vamos Lá!</p>
@@ -184,11 +205,11 @@
         </div>
     </section>
 
-    <section class="pg8-portfolio">
-        <img class="img-texto-latij" src="images/janela2.png"/>
-        <img class="img-latij" src="images/janela2.png"/>
+    <section id="La">
+        <img class="img-text-latij" src="images/janela2.png"/>
+        <img class="img-latij" src="images/imgla1.png"/>
         <div class="latij">
-            <h1 class="title-latij">Social Media |<br> La Tijereta Sex Shop </h1>
+            <h1 class="title-latij">SOCIAL MEDIA |<br> La Tijereta Sex Shop </h1>
             <p class="description-latij"">Responsável pela gestão, atualização e geração de conteúdo e tráfego para as redes sociais da empresa online. Criação de site através da plataforma Nuvemshop.</p>
             <h4 class="data-latij">
                 Junho/2020 – Abril/2022  | São Paulo            
@@ -197,37 +218,35 @@
         </div>
     </section>
 
+    <section id=footer>
+        <h1>CONTATO E REDES SOCIAIS</h1>
+        <ul>
+        <li>
+            <img src="https://img.icons8.com/material-outlined/96/e83e2d/github.png"/>
+            <h4><a href="https://github.com/morganales" target="_blank">GITHUB</a></h4>
+            <h5>@morganales</h5>
+        </li>
+        <li>
+            <img src="https://img.icons8.com/glyph-neue/96/e83e2d/linkedin.png"/>
+            <h4><a href="https://www.linkedin.com/in/gabrielaleiteaes/" target="_blank">LINKEDIN</a></h4>
+            <h5>gabrielaleiteaes</h5>
+        </li>
+        <li>
+            <img src="https://img.icons8.com/material-outlined/96/e83e2d/instagram-new--v1.png"/>       
+            <h4><a href="https://www.instagram.com/gab.leiteaes/" target="_blank">INSTAGRAM</a></h4>
+            <h5>@gab.leiteaes</h5>
+        </li>
+        <li>
+            <img src="https://img.icons8.com/glyph-neue/100/e83e2d/gmail.png"/>
+            <h4><a href= "mailto:gabrielaleiteaes@gmail.com" target="_blank">EMAIL</a></h4>
+            <h5>gabrielaleiteaes@gmail.com</h5>
+        </li>
+        </ul>
     </section>
 
-</section>
+    </section>
    
-<!– // --------------- contato/footer -------------------------------------------------–>
+    </body>
 
-
-<footer id="contato">
-
-
-    <section class="footer">   
-    <div class="contato-title"><h1> {contato & redes sociais}</h1></div>
-    <div class="mail">
-        <img src="https://img.icons8.com/material/25/000000/gmail--v1.png" class="icon"/>
-        <a href="mailto:gabriela.leiteaes@gmail.com" target="_blank">gabriela.leiteaes@gmail.com</a>
-    </div>
-    <div class="git">
-        <img src="https://img.icons8.com/material/25/000000/github--v1.png" class="icon"/>
-        <a href="https://github.com/morganales" target="_blank">GitHub </a>
-    </div>
-    <div class="linkedin">
-        <img src="https://img.icons8.com/material/25/000000/linkedin--v1.png" class="icon"/>
-        <a href="https://www.linkedin.com/in/gabrielaleiteaes/" target="_blank">LinkedIn</a>
-    </div>
-    </section> 
-        
-    
-</footer>
-
-</section>
-
-</body>    
 </html>
 
