@@ -2,17 +2,17 @@
     margin: 0;
     list-style: none;
     list-style-type:none;
-    text-decoration: none;
 }
+
+
 body{
-    font-family: "Open Sans", "sans-serif";
+    font-family: 'Aleo', serif;
     font-weight:400;
-    background-color:#f3aecdcc;
+    background-color:#f6c8c9;
     width: auto;
     height: 2289px;
+;
 
-    background: rgb(243,174,205);
-    background: linear-gradient(90deg, rgba(243,174,205,1) 0%, rgba(110,231,196,1) 100%);
 }
 #navbar{
     position: absolute;
@@ -23,8 +23,8 @@ body{
     height: 50px;
     z-index: 99;
 
-    background: #F3AECDCC;
-    border: 5px solid #5F34E2;
+    background: #eae5df;
+    border: 3px solid #e83e2d;
 }
 
 .nav-link{
@@ -38,15 +38,15 @@ body{
 
 .nav-link a{
     text-decoration: none;
-    padding: 40px;
+    padding: 20px;
     position: relative;
 
-    font-family: 'Inconsolata','Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Courier Prime', monospace;    
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 31px;
-    color: #5F34E2;
+    line-height: 35px;
+    color: #e83e2d;
 }
 
 #navbar img{   
@@ -58,83 +58,94 @@ body{
 
 #Home{
     width: auto;
-    height: 800px;
-    padding-top: 50px;
+    height: 768px;
+    padding-top: 20px;
 }
 
 .pg-inicial{
     position:relative;
     width: 750px;
     margin: auto;
-    margin-top: 12.5%;
+    margin-top: 12%;
+    margin-left: 40%;
 }
 
 .pg-inicial img{
-    width: 100%;
+    width: 80%;
+    margin-left: 20%;
 }
 
 .title{
     position:absolute;
-    top: 40%;
+    top: 30%;
     left: 25%;
-    text-align: center;
-    transition: translate (-50%, -50%);
+    text-align: left;
 
-    font-family: 'Abril Fatface';
+    font-family: 'Shrikhand', cursive;
     font-style: normal;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 92px;
-    color: #5F34E2;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    color: #e83e2d;
 }
 
 .subtitle{  
     position:absolute;
-    top: 60%;
-    left: 28%;
-    text-align: center;
-    transition: translate (-50%, -50%);
+    top: 70%;
+    left: 25%;
+    text-align: left;
     
-    font-family: 'Open Sans';
+    font-family: 'Aleo', serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
-    color: #5F34E2
+    color: #e83e2d;
 }
 
 #Sobre{
     width: auto;
-    height: 800px;
+    height: 768px;
     padding-top: 100px;
+    background-color: #eae5df;
 }
 .sobre1{
     width: 700px;
     margin-left: 5%;
     position:relative;
+    top:15%;
 }
 
-.sobre1 img{
-    width: 100%;
-    margin: auto;
-}
 .quem-sou{
     position: absolute;
     text-align: left;
-    top:22%;
+    top:100%;
     left: 10%;
-    color:#5F34E2;
+
+    font-family: 'Shrikhand', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 5px;
+    color: #e83e2d;
 }
 .sobre-mim{
     position: absolute;
     text-align:left;
-    top:25%;
+    top:50%;
     left: 9.5%;
+
+    font-family: 'Shrikhand', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 95px;
+    color: #e83e2d;
 }
 .quem-texto{
     position: absolute;
     text-align:left;
-    top: 50%;
+    top: 90px;
     left: 10%;
     right: 20%;
 
@@ -145,8 +156,8 @@ body{
     line-height: 30px;
 }
 .sobre2 {
-    width: 580px;
-    margin-left: 52.5%;
+    width: 450px;
+    margin-left: 60%;
     margin-right: 50%;
     margin-top: 2%;
     position:absolute;
@@ -159,60 +170,179 @@ body{
 
 #Formação{
     width: auto;
-    height: 800px;
-    padding-top: 50px;
+    height: 768px;
+    padding-top: 100px;
+    background: linear-gradient(0deg, rgba(234,229,223,1) 70%, rgba(246,200,201,1) 30%); 
 }
+
+.title-formacao{
+
+    text-align:center;
+    top:50%;
+    padding-left: 0%;
+
+    font-family: 'Shrikhand', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 80px;
+    color: #e83e2d;
+}
+
+.subtitle-formacao{
+    text-align:center;
+    top:70%;
+    padding-left: 0%;
+
+    font-family: 'Shrikhand', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 20px;
+    color: #e83e2d;
+}
+#Formação a{
+    text-decoration: none;
+}
+
 .estudo{
     width: 500px;
-    position:relative;
+    margin-top: 3%;
+    margin-left: 4%;
+    position: relative;
+    text-decoration: none;
 }
-.estudo img{
-    width: 100%;
-    margin: auto;
+
+.estudo h4{
+    color: #e83e2d;
+    line-height: 200%;
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
 }
-.unila{
+.estudo h5{
+    color: #e83e2d;
+    line-height: 100%;
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+.estudo a{
+    font-family: 'Shrikhand', cursive;
+    font-weight: 400;
+    color: #e83e2d;
+    line-height: 80%;
+    background-color: #f6c8c9;
+    border: 3px solid #e83e2d;
+    padding: 8px;
+}
+
+.unila img{
     position: absolute;
+    text-align: left;
     width: 375px;
     height: 323.5px;
     left: 69px;
     top: 50px;
 }
-.kk{
+.unila h4{
+    position: absolute;
+    text-align: left;
+    width: 330px;
+    height: 250px;
+    left: 85px;
+    top: 100px;
+}
+.data-unila{
+    position: absolute;
+    text-align: left;
+    width: 330px;
+    height: 250px;
+    left: 85px;
+    top: 240px;
+}
+.unila a{
+    position: absolute;
+    text-align: left;
+    left: 0px;
+    top: 180px;
+}
+
+.kk img{
     position: absolute;
     width: 375px;
     height: 323.5px;
     left: 532px;
     top: 50px;
 }
-.minas{
+.kk h4{
     position: absolute;
-    width: 375px;
+    width: 330px;
+    height: 250px;
+    left: 548px;
+    top: 100px;
+}
+.data-kk{
+    position: absolute;
+    width: 330px;
+    height: 250px;
+    left: 548px;
+    top: 240px;
+}
+
+.kk a{
+    position: absolute;
+    text-align: left;
+    left: 0px;
+    top: 180px;
+}
+
+.minas img{
+    position: absolute;
+    width: 330px;
     height: 323.5px;
     left: 995px;
     top: 50px;
 }
+.minas h4{
+    position: absolute;
+    width: 250px;
+    left: 1010px;
+    top: 100px;
+}
+.data-minas{
+    position: absolute;
+    width: 250px;
+    left: 1010px;
+    top: 240px;
+}
 
-#Portfolio{
+.minas a{
+    position: absolute;
+    text-align: left;
+    left: 0px;
+    top: 180px;
+}
+
+#projetos{
     width: auto;
     height: 800px;
     padding-top: 50px;
 }
 
-section h1 {
-    font-family: 'Abril Fatface';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 92px;
-    color: #5F34E2;
+#projetos a{
+    text-decoration: none;
 }
 
-.content p{
-    padding-top: 10px;
-}
 
 #contato{
     width: auto;
-    height: 800px;
+    height: 768px;
     padding-top: 50px;
+}
+
+#contato a{
+    text-decoration: none;
 }
