@@ -9,7 +9,7 @@ body{
     font-family: 'Aleo', serif;
     font-weight:400;
     background-color:#f6c8c9;
-    width: auto;
+    max-width: auto;
     height: auto;
 }
 #navbar{
@@ -21,7 +21,7 @@ body{
     height: 50px;
     z-index: 99;
 
-    background: #eae5df;
+    background: #eae5dfcc;
     border:3px solid #e83e2d;
 
 }
@@ -29,7 +29,7 @@ body{
     position:absolute;
     top:50px;
     left:35%;
-    background-color:#eae5df;
+    background-color:#eae5dfcc;
     display:none;
     padding-left: 0%;
 
@@ -74,12 +74,12 @@ body{
 #Home{
     width: auto;
     height: 768px;
-    padding-top: 20px;
+    padding-top: 2%;
 }
 
 .pg-inicial{
     position:relative;
-    width: 750px;
+    width: 768px;
     margin: auto;
     margin-top: 12%;
     margin-left: 40%;
@@ -121,7 +121,7 @@ body{
 #Sobre{
     width: auto;
     height: 768px;
-    padding-top: 100px;
+    padding-top: 6%;
     background-color: #eae5df;
 }
 .sobre1{
@@ -141,7 +141,7 @@ body{
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
-    line-height: 5px;
+    line-height: 5%;
     color: #e83e2d;
 }
 .sobre-mim{
@@ -159,6 +159,7 @@ body{
 }
 .quem-texto{
     position: absolute;
+    width: 70%;
     text-align:left;
     top: 90px;
     left: 10%;
@@ -168,7 +169,7 @@ body{
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 150%;
 }
 .sobre2 {
     width: 450px;
@@ -181,6 +182,7 @@ body{
 .sobre2 img{
     width: 100%;
     position:relative;
+    padding-top: 6%;
 }
 
 #Formação{
@@ -251,7 +253,7 @@ body{
     line-height: 80%;
     background-color: #f6c8c9;
     border: 3px solid #e83e2d;
-    padding: 8px;
+    padding: 3%;
 }
 
 .unila img{
@@ -259,7 +261,7 @@ body{
     text-align: left;
     width: 375px;
     height: 323.5px;
-    left: 69px;
+    left: 14%;
     top: 50px;
 }
 .unila h4{
@@ -343,21 +345,21 @@ body{
 
 #skills{
     width: auto;
-    height: 768px;
-    padding-top: 100px;
-    padding-left: 60px;
+    height: auto;
+    padding-top: 6%;
+    padding-left: 5%;
 }
 
 #skills img{
     width: auto;
-    height: 620px;
+    max-height: 620px;
     padding-left:6%;
 }
 
 #projetos{
     width: auto;
     height: 768px;
-    padding-top: 50px;
+    padding-top: 3%;
 }
 
 .texto-pg1{
@@ -366,7 +368,7 @@ body{
 .pg1-portfolio{
     width: auto;
     height: 768px;
-    padding-top: 50px;
+    padding-top: 5%;
     padding-left: 10%;
 
     background-color: #eae5df;
@@ -409,7 +411,7 @@ body{
     padding-top: 1%;
     padding-left: 0%;
     text-align:left;
-    top: 90px;
+    top: 9%;
     right: 20%;
 
     font-family: 'Aleo', serif;
@@ -427,7 +429,7 @@ body{
 #Bonadei{
     width: auto;
     height: 768px;
-    padding-top: 100px;
+    padding-top: 10%;
     position: relative;
 
     background-color: #eae5df;
@@ -442,7 +444,7 @@ body{
 .pg1-bonadei a{
     position: absolute;
     left: 61.5%;
-    top: 64.5%;
+    top: 60.5%;
 
     font-family: 'Shrikhand', cursive;
     font-weight: 400;
@@ -451,13 +453,13 @@ body{
     line-height: 50%;
     background-color: #f6c8c9;
     border: 3px solid #e83e2d;
-    padding: 15px;
+    padding: 1%;
 }
 .img-bonadei{
     position: absolute;
     text-align: left;
     width: 400px;
-    left: 10%;
+    left: 15%;
     top: 20%;
 }
 .img-text-bonadei{
@@ -473,7 +475,7 @@ body{
     width: 400px;
     height: 102px;
     left: 61.5%;
-    top: 28%;
+    top: 26%;
 
     font-style: normal;
     font-weight: 700;
@@ -486,7 +488,7 @@ body{
     position: absolute;
     width: 350px;
     left: 61.5%;
-    top: 45%;   
+    top: 42%;   
 
     font-style: normal;
     font-weight: 400;
@@ -498,7 +500,7 @@ body{
     position: absolute;
     width: 350px;
     left: 61.5%;
-    top: 60%;  
+    top: 55%;  
 
     font-style: normal;
     font-weight: 700;
@@ -510,7 +512,7 @@ body{
 #Goodtimes{
     width: auto;
     height: 768px;
-    padding-top: 100px;
+    padding-top: 10%;
     position: relative;
 
     background-color: #f6c8c9;
@@ -526,7 +528,7 @@ body{
     position: absolute;
     text-align: left;
     width: 400px;
-    left: 10%;
+    left: 15%;
     top: 20%;
 }
 .img-text-good{
@@ -542,7 +544,7 @@ body{
     width: 400px;
     height: 102px;
     left: 61.5%;
-    top: 28%;
+    top: 26%;
 
     font-style: normal;
     font-weight: 700;
@@ -567,7 +569,7 @@ body{
     position: absolute;
     width: 350px;
     left: 61.5%;
-    top: 53%;  
+    top: 52%;  
 
     font-style: normal;
     font-weight: 700;
@@ -578,7 +580,7 @@ body{
 .good a{
     position: absolute;
     left: 61.5%;
-    top: 63%;
+    top: 60.5%;
 
     font-family: 'Shrikhand', cursive;
     font-weight: 400;
@@ -593,7 +595,7 @@ body{
 #Parte2{
     width: auto;
     height: 768px;
-    padding-top: 100px;
+    padding-top: 10%;
     position: relative;
 
     background-color: #eae5df;
@@ -609,7 +611,7 @@ body{
     position: absolute;
     text-align: left;
     width: 400px;
-    left: 10%;
+    left: 15%;
     top: 20%;
 }
 .img-text-parte{
@@ -625,7 +627,7 @@ body{
     width: 400px;
     height: 102px;
     left: 61.5%;
-    top: 28%;
+    top: 26%;
 
     font-style: normal;
     font-weight: 700;
@@ -650,7 +652,7 @@ body{
     position: absolute;
     width: 350px;
     left: 61.5%;
-    top: 53%;  
+    top: 52%;  
 
     font-style: normal;
     font-weight: 700;
@@ -661,7 +663,7 @@ body{
 .parte a{
     position: absolute;
     left: 61.5%;
-    top: 63%;
+    top: 60.5%;
 
     font-family: 'Shrikhand', cursive;
     font-weight: 400;
@@ -676,10 +678,10 @@ body{
 #Amora{
     width: auto;
     height: 768px;
-    padding-top: 100px;
+    padding-top: 10%;
     position: relative;
 
-    background-color: #eae5df;
+    background-color: #f6c8c9;
 }
 
 .amora{
@@ -692,7 +694,7 @@ body{
     position: absolute;
     text-align: left;
     width: 400px;
-    left: 10%;
+    left: 15%;
     top: 20%;
 }
 .img-text-amora{
@@ -708,7 +710,7 @@ body{
     width: 400px;
     height: 102px;
     left: 61.5%;
-    top: 28%;
+    top: 26%;
 
     font-style: normal;
     font-weight: 700;
@@ -733,7 +735,7 @@ body{
     position: absolute;
     width: 350px;
     left: 61.5%;
-    top: 53%;  
+    top: 52%;   
 
     font-style: normal;
     font-weight: 700;
@@ -744,7 +746,7 @@ body{
 .amora a{
     position: absolute;
     left: 61.5%;
-    top: 63%;
+    top: 60.5%;
 
     font-family: 'Shrikhand', cursive;
     font-weight: 400;
@@ -759,7 +761,7 @@ body{
 #La{
     width: auto;
     height: 768px;
-    padding-top: 100px;
+    padding-top: 10%;
     position: relative;
 
     background-color: #eae5df;
@@ -775,7 +777,7 @@ body{
     position: absolute;
     text-align: left;
     width: 400px;
-    left: 10%;
+    left: 15%;
     top: 20%;
 }
 .img-text-latij{
@@ -791,7 +793,7 @@ body{
     width: 400px;
     height: 102px;
     left: 61.5%;
-    top: 28%;
+    top: 26%;
 
     font-style: normal;
     font-weight: 700;
@@ -804,7 +806,7 @@ body{
     position: absolute;
     width: 350px;
     left: 61.5%;
-    top: 40%;   
+    top: 40%;      
 
     font-style: normal;
     font-weight: 400;
@@ -816,7 +818,7 @@ body{
     position: absolute;
     width: 350px;
     left: 61.5%;
-    top: 53%;  
+    top: 52%;   
 
     font-style: normal;
     font-weight: 700;
@@ -827,8 +829,8 @@ body{
 .latij a{
     position: absolute;
     left: 61.5%;
-    top: 63%;
-
+    top: 60.5%;
+    
     font-family: 'Shrikhand', cursive;
     font-weight: 400;
     font-size: 16px;
